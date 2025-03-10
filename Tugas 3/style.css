@@ -1,0 +1,193 @@
+/* Mengatur background dasar dan font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Styling untuk box biodata, pendidikan, dan lainnya */
+.box-grey, .box-blue {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.box-grey li, .box-blue li {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 8px 0;
+  color: #333;
+}
+
+.box-pink {
+  color: black; /* Warna pink untuk heading */
+  font-size: 1.8rem;
+}
+
+
+
+.featurette-heading {
+  margin-bottom: 15px;
+}
+
+/* Styling untuk gambar profil */
+.img-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Styling untuk navbar */
+.navbar {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+.navbar a {
+  color: #fff !important;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  color: #f8f9fa;
+}
+
+/* Animasi dengan AOS */
+[data-aos] {
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Styling untuk perkenalan dan penataan umum */
+.container.marketing {
+  margin-top: 100px;
+}
+
+/* Menambahkan padding untuk elemen dengan animasi */
+[data-aos="fade-up"] {
+  animation: fadeUp 1s forwards;
+}
+
+[data-aos="fade-left"] {
+  animation: fadeLeft 1s forwards;
+}
+
+[data-aos="zoom-in"] {
+  animation: zoomIn 1s forwards;
+}
+
+[data-aos="fade-right"] {
+  animation: fadeRight 1s forwards;
+}
+
+/* Animasi Kustom */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+  .img-left {
+    width: 150px;
+    height: 150px;
+  }
+  .featurette-heading {
+    font-size: 1.6rem;
+  }
+}
+
+.box-black{
+    background-image: url(gbrrr.jpg);
+    background-size: cover; /* Menyesuaikan gambar dengan layar */
+    background-position: center; /* Posisi gambar di tengah */
+    background-repeat: no-repeat; /* Agar gambar tidak berulang */
+    position: relative;
+    color: rgb(235, 229, 194);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.box-blue{
+    background-color: rgb(235, 229, 194);
+    color: #020a12;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.box-brown{
+    background-color:rgb(68, 54, 39);
+    color: rgb(242, 246, 208);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+body {
+  background-image: url(brown1.jpg); /* Ganti dengan nama file gambar */
+  background-size: cover; /* Menyesuaikan gambar dengan layar */
+  background-position: center; /* Posisi gambar di tengah */
+  background-repeat: no-repeat; /* Agar gambar tidak berulang */
+}
+
+.instagram-text {
+  color: rgb(242, 246, 208); /* Ubah warna teks utama */
+  font-weight: bold;
+}
+
+.instagram-text span {
+  color:rgb(242, 246, 208); /* Warna khas Instagram */
+}
+
+.instagram-link {
+  color: #3053e1; /* Warna untuk link */
+  text-decoration: none; /* Hilangkan garis bawah */
+}
+
+.instagram-link:hover {
+  color:rgb(79, 79, 186); /* Warna berubah saat hover */
+}

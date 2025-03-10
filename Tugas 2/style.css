@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    font-family: "Quiicksand";
+    margin: 0;
+    padding: 0;
+}
+
+.box-grey {
+    background-color: rgb(162, 123, 92) ;
+    text-align:center;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    color: aliceblue;
+ }
+
+
+.box-pink {
+    background-color:rgb(225, 149, 171);
+    text-align: justify;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 5px 5px 2px 1px rgb(222, 49, 99);
+ }
+
+ .box-pink img{
+    width: 20%;
+ }
+
+ .box-pink h2 {
+    color: rgb(226, 110, 229);
+ }
+
+ .box-pink p {
+    color: rgb(222, 49, 99);
+ }
+
+ .box-pink th {
+   color: rgb(222, 49, 99);
+}
+
+.box-pink h5 {
+   color: rgb(222, 49, 99);
+}
+
+ .box-pink li {
+    color: rgb(163, 29, 29);
+ }
+ 
+ .box-pink h4 {
+    color: rgb(121, 147, 81);
+ }
+
+
+
+ .box-blue {
+    background-color:rgb(183, 177, 242);
+    text-align: justify;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 5px 5px 2px 1px rgb(169, 181, 223);
+ }
+
+ .box-blue img{
+    width: 20%;
+ }
+
+ .box-blue li {
+   color: rgb(45, 51, 107);
+}
+
+ .box-blue h2 {
+    color: rgb(120, 134, 199);
+ }
+
+ .box-blue th {
+   color: rgb(45, 51, 107);
+}
+
+.box-blue td {
+   color: rgb(45, 51, 107);
+}
+
+ .box-blue i {
+    color: rgb(87, 143, 202);
+ }
+ 
+ .box-blue h3 {
+    color: rgb(54, 116, 181);
+ }
+
+ .box-blue p {
+   color: rgb(0, 135, 158);
+ }
+
+ .box-blue h4 {
+   color: rgb(0, 48, 146);
+ }
+
+ .box-blue h5 {
+   color: rgb(0, 48, 146);
+ }
+
+ .jumbotron{
+    background-color: rgb(134, 143, 102);
+    padding: 60px;
+    text-align: center;
+    color: rgb(26, 25, 25);
+    font-size: 20px;
+
+}
+
+nav {
+    background-color: rgb(165, 155, 108);
+    padding: 10px;
+}
+
+nav ul li {
+    display:inline;
+    margin: 6px;
+    font-weight: bold;
+}   
+
+nav ul li a {
+    text-decoration: none;
+    color:whitesmoke;
+    transition: padding 0.3s ease;
+}
+
+nav ul li a:hover {
+   background-color: rgb(177, 172, 153); 
+   padding: 0.75em;
+   border-radius: 6px;
+}
